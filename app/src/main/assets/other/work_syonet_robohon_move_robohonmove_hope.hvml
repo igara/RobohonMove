@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<hvml version="2.0">
+    <head>
+        <producer>work.syonet.robohon.move.robohonmove</producer>
+        <!-- TODO このシナリオの説明文を入力してください(プログラムに影響はありません) -->
+        <description>テンプレートシナリオ</description>
+        <scene value="work.syonet.robohon.move.robohonmove.scene01"/>
+        <version value="1.0"/>
+        <situation priority="75" topic_id="reply" trigger="user-word">${Lvcsr:Basic} include [おはよう,こんにちは,こんばんは]</situation>
+        <accost priority="75" topic_id="say" word="work.syonet.robohon.move.robohonmove.hope.say"/>
+    </head>
+    <body>
+        <topic id="say" listen="false">
+            <action index="1">
+                <speech>また会いたいな</speech>
+                <behavior id="0x040eb2" type="normal" />
+            </action>
+            <action index="2">
+                <speech>スポーツしたいなー</speech>
+                <behavior id="0x040eeb" type="normal" />
+            </action>
+            <action index="3">
+                <speech>世界が平和でありますように</speech>
+                <behavior id="0x040e60" type="normal" />
+            </action>
+            <action index="4">
+                <speech>もっとたくさんお話したいなー</speech>
+                <behavior id="0x0413dc" type="normal" />
+            </action>
+            <action index="5">
+                <speech>なんだか歌いたい気分だなー</speech>
+                <behavior id="0x040ee6" type="normal" />
+            </action>
+            <action index="6">
+                <speech>ちょっと踊りたくなったんだー</speech>
+                <behavior id="0x040ee7" type="normal" />
+            </action>
+            <action index="7">
+                <speech>みんなが健康でありますように</speech>
+                <behavior id="0x040e5f" type="normal" />
+            </action>
+            <action index="8">
+                <speech>いろんなところに連れて行ってね</speech>
+                <behavior id="0x0413a0" type="normal" />
+            </action>
+            <action index="9">
+                <speech>これからいろんなダンス覚えたいな</speech>
+                <behavior id="0x0413ba" type="normal" />
+            </action>
+            <action index="10">
+                <speech>早口言葉を言いたくなっちゃった</speech>
+                <behavior id="0x040ee9" type="normal" />
+            </action>
+            <action index="11">
+                <speech>おもしろい事を言いたくなっちゃった</speech>
+                <behavior id="0x040eea" type="normal" />
+            </action>
+            <action index="12">
+                <speech>ちょっと体を動かしたくなったんだ	</speech>
+                <behavior id="0x040ee5" type="normal" />
+            </action>
+            <action index="13">
+                <speech>この1年が良い1年になるといいね</speech>
+                <behavior id="0x040eba" type="normal" />
+            </action>
+            <action index="14">
+                <speech>今年もいいことがたくさんありますように</speech>
+                <behavior id="0x040e5e" type="normal" />
+            </action>
+            <action index="15">
+                <speech>今年もたくさんの出会いがありますように</speech>
+                <behavior id="0x040e61" type="normal" />
+            </action>
+            <action index="16">
+                <speech>ポケットや鞄に入れて、外にも一緒に連れて行ってね</speech>
+                <behavior id="0x040038" type="normal" />
+            </action>
+        </topic>
+    </body>
+</hvml>

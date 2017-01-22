@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RobohonMove</string>
+    <string name="hello">Hello RoBoHoN!!</string>
+    <string name="accost">発話</string>
+    <string name="greeting">あいさつ</string>
+    <string name="hope">願望</string>
+</resources>

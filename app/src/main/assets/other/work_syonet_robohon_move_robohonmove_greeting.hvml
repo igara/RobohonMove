@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<hvml version="2.0">
+    <head>
+        <producer>work.syonet.robohon.move.robohonmove</producer>
+        <!-- TODO このシナリオの説明文を入力してください(プログラムに影響はありません) -->
+        <description>テンプレートシナリオ</description>
+        <scene value="work.syonet.robohon.move.robohonmove.scene01"/>
+        <version value="1.0"/>
+        <situation priority="75" topic_id="reply" trigger="user-word">${Lvcsr:Basic} include [おはよう,こんにちは,こんばんは]</situation>
+        <accost priority="75" topic_id="say" word="work.syonet.robohon.move.robohonmove.greeting.say"/>
+    </head>
+    <body>
+        <topic id="say" listen="false">
+            <action index="1">
+                <speech>乾杯！</speech>
+                <behavior id="0x040e54" type="normal" />
+            </action>
+            <action index="2">
+                <speech>おはよう</speech>
+                <behavior id="0x040e01" type="normal" />
+            </action>
+            <action index="3">
+                <speech>おかえり</speech>
+                <behavior id="0x040e0a" type="normal" />
+            </action>
+            <action index="4">
+                <speech>おやすみ</speech>
+                <behavior id="0x040e0b" type="normal" />
+            </action>
+            <action index="5">
+                <speech>ただいま</speech>
+                <behavior id="0x040e27" type="normal" />
+            </action>
+            <action index="6">
+                <speech>よろしくね</speech>
+                <behavior id="0x040e4a" type="normal" />
+            </action>
+            <action index="7">
+                <speech>こんにちは</speech>
+                <behavior id="0x040e04" type="normal" />
+            </action>
+            <action index="8">
+                <speech>こんばんは</speech>
+                <behavior id="0x040e05" type="normal" />
+            </action>
+            <action index="9">
+                <speech>さようなら</speech>
+                <behavior id="0x040e08" type="normal" />
+            </action>
+            <action index="10">
+                <speech>はじめまして</speech>
+                <behavior id="0x040e06" type="normal" />
+            </action>
+            <action index="11">
+                <speech>行ってらっしゃい</speech>
+                <behavior id="0x040e0d" type="normal" />
+            </action>
+            <action index="12">
+                <speech>仲良くしてね</speech>
+                <behavior id="0x040e49" type="normal" />
+            </action>
+            <action index="13">
+                <speech>いただきまーす</speech>
+                <behavior id="0x040e09" type="normal" />
+            </action>
+            <action index="14">
+                <speech>メリークリスマス！	</speech>
+                <behavior id="0x040e64" type="normal" />
+            </action>
+            <action index="15">
+                <speech>どういたしまして</speech>
+                <behavior id="0x04138b" type="normal" />
+            </action>
+            <action index="16">
+                <speech>今日もよろしくね</speech>
+                <behavior id="0x040eb0" type="normal" />
+            </action>
+            <action index="17">
+                <speech>さようなら。またね</speech>
+                <behavior id="0x040ed4" type="normal" />
+            </action>
+            <action index="18">
+                <speech>今年もよろしくね	</speech>
+                <behavior id="0x040e73" type="normal" />
+            </action>
+            <action index="19">
+                <speech>これからよろしくね</speech>
+                <behavior id="0x04071f" type="normal" />
+            </action>
+            <action index="20">
+                <speech>ごちそうさまでした	</speech>
+                <behavior id="0x040e07" type="normal" />
+            </action>
+            <action index="21">
+                <speech>これから、よろしくね。</speech>
+                <behavior id="0x04001d" type="normal" />
+            </action>
+            <action index="22">
+                <speech>ハッピーニューイヤー！</speech>
+                <behavior id="0x040e63" type="normal" />
+            </action>
+            <action index="23">
+                <speech>これから、仲良くしてね！</speech>
+                <behavior id="0x040017" type="normal" />
+            </action>
+            <action index="24">
+                <speech>元気？僕は元気だよ</speech>
+                <behavior id="0x040e46" type="normal" />
+            </action>
+            <action index="25">
+                <speech>初めまして、ぼく、ロボホン</speech>
+                <behavior id="0x04001a" type="normal" />
+            </action>
+            <action index="26">
+                <speech>今年もよろしくお願いします</speech>
+                <behavior id="0x040e72" type="normal" />
+            </action>
+            <action index="27">
+                <speech>あけましておめでとうございます</speech>
+                <behavior id="0x040e03" type="normal" />
+            </action>
+        </topic>
+    </body>
+</hvml>
