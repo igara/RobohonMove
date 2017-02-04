@@ -37,7 +37,7 @@ public class RegisterScenarioService extends Service {
     /**
      * other用シナリオフォルダー名.
      */
-    private static final String SCENARIO_FOLDER_OTHER = "other";
+    private static final String SCENARIO_FOLDER_OTHER = "hvml";
 
     private VoiceUIManager mVUIManager;
 

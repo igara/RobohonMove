@@ -67,6 +67,10 @@ public class ScenarioDefinitions {
      */
     public static final String ACC_HOPE = ScenarioDefinitions.PACKAGE + ".hope.say";
     /**
+     * accost名：OK / NO実行.
+     */
+    public static final String ACC_OK_OR_NO = ScenarioDefinitions.PACKAGE + ".ok_or_no.t1";
+    /**
      * accost名：アプリ終了発話実行.
      */
     public static final String ACC_END_APP = ScenarioDefinitions.PACKAGE + ".app_end.execute";

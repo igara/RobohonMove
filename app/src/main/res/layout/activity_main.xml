@@ -48,4 +48,13 @@
         android:textSize="27sp"
         android:layout_below="@+id/greeting"
         android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok_or_no"
+        android:textSize="27sp"
+        android:layout_below="@+id/hope"
+        android:layout_alignParentStart="true"
+        android:id="@+id/ok_or_no" />
 </RelativeLayout>

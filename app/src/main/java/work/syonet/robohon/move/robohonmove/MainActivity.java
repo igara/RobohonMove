@@ -102,7 +102,7 @@ public class MainActivity extends Activity implements MainActivityVoiceUIListene
                 }
             }
         });
-        // あいさつボタンの実装
+        // 願望ボタンの実装
         Button HopeButton = (Button) findViewById(R.id.hope);
         HopeButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -112,9 +112,19 @@ public class MainActivity extends Activity implements MainActivityVoiceUIListene
                     VoiceUIManagerUtil.updateAppInfo(mVoiceUIManager, helper.getVariableList(), true);
                 }
             }
+        });//ACC_OK_OR_NO
+
+        // OK / NOボタンの実装
+        Button OkNoButton = (Button) findViewById(R.id.ok_or_no);
+        OkNoButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (mVoiceUIManager != null) {
+                    VoiceUIVariableListHelper helper = new VoiceUIVariableListHelper().addAccost(ScenarioDefinitions.ACC_OK_OR_NO);
+                    VoiceUIManagerUtil.updateAppInfo(mVoiceUIManager, helper.getVariableList(), true);
+                }
+            }
         });
-
-
     }
 
     @Override
